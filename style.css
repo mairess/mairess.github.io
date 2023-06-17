@@ -1,0 +1,110 @@
+* {  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  line-height: 1.6;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  margin-top: 70px;
+}
+
+.borderDashed {
+  border: 1px dashed rgb(43, 43, 43);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(2, 44, 22);
+  color: white;
+}
+
+#headerTable {
+  position: absolute;
+  left: 40px;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+#headerTable a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 60%;
+}
+
+#titulo {
+  text-align: center;
+  margin-top: 7px;
+  background-color: transparent;
+}
+
+#profileSection {
+  margin-left: 20px;
+}
+
+#minha_foto {
+  width: 150px;
+  border-radius: 10%;
+}
+
+.lists {
+  margin-left: 20px;
+}
+
+.lists div {
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.lists ol , ul {
+  margin-left: 25px;
+}
+
+.lists h2 {
+  margin: 10px;
+}
+
+table {
+  position: absolute;
+  right: 10px;
+  bottom: 1px;
+  padding: 2px;
+}
+
+article {
+  width: 90%;
+  padding: 5px;
+}
+
+aside {
+  width: 40%;
+  padding: 5px;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+}
+
+#rodape p {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.lado-esquerdo {
+  float: left;
+  margin-left: 20px;
+}
+
+.lado-direito {
+  float: right;
+  margin-right: 10px;
+}
